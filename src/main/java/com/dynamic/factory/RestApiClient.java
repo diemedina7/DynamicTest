@@ -1,15 +1,9 @@
 package com.dynamic.factory;
 
-import java.lang.reflect.Type;
 import java.net.URI;
 import java.net.http.HttpClient;
 import java.net.http.HttpRequest;
 import java.net.http.HttpResponse;
-import java.util.List;
-import java.util.Map;
-
-import com.google.gson.Gson;
-import com.google.gson.reflect.TypeToken;
 
 public class RestApiClient implements ApiClient {
     private static final String BASE_URL = "http://localhost:8080/api";
