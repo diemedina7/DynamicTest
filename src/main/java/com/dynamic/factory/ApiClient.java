@@ -1,5 +1,5 @@
 package com.dynamic.factory;
 
 public interface ApiClient {
-    String executeMethod(String method);
+    public String executeMethod(String baseUrl, String method, String body);
 }
